@@ -1,7 +1,7 @@
 {
   "vendor": "basedevmkp",
   "name": "facebook-pixel-teste",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "title": "Facebook Pixel",
   "description": "Integrate with Facebook advertising tools.",
   "defaultLocale": "pt-BR",
@@ -15,89 +15,89 @@
   "billingOptions": {
     "type": "billable",
     "support": {
-        "email": "manoel.gumes@vtex.com.br"
+      "email": "manoel.gumes@vtex.com.br"
     },
     "availableCountries": [
-        "BRA",
-        "ARG",
-        "USA",
-        "GBR"
+      "BRA",
+      "ARG",
+      "USA",
+      "GBR"
     ],
     "plans": [
-        {
-            "id": "planoBrasil",
-            "currency": "BRL",
-            "price": {
-                "metrics": [
-                    {
-                        "id": "Silver",
-                        "ranges": [
-                            {
-                                "exclusiveFrom": 0,
-                                "inclusiveTo": 25,
-                                "multiplier": 5
-                            },
-                            {
-                                "exclusiveFrom": 25,
-                                "inclusiveTo": 100,
-                                "multiplier": 2.5
-                            },
-                            {
-                                "exclusiveFrom": 100,
-                                "multiplier": 1
-                            }
-                        ]
-                    },
-                    {
-                        "id": "Gold",
-                        "ranges": [
-                            {
-                                "exclusiveFrom": 0,
-                                "multiplier": 0.5
-                            }
-                        ]
-                    }
-                ]
+      {
+        "id": "planoBrasil",
+        "currency": "BRL",
+        "price": {
+          "metrics": [
+            {
+              "id": "Silver",
+              "ranges": [
+                {
+                  "exclusiveFrom": 0,
+                  "inclusiveTo": 25,
+                  "multiplier": 5
+                },
+                {
+                  "exclusiveFrom": 25,
+                  "inclusiveTo": 100,
+                  "multiplier": 2.5
+                },
+                {
+                  "exclusiveFrom": 100,
+                  "multiplier": 1
+                }
+              ]
+            },
+            {
+              "id": "Gold",
+              "ranges": [
+                {
+                  "exclusiveFrom": 0,
+                  "multiplier": 0.5
+                }
+              ]
             }
-        },
-        {
-            "id": "planoGlobal",
-            "currency": "USD",
-            "price": {
-                "metrics": [
-                    {
-                        "id": "Silver",
-                        "ranges": [
-                            {
-                                "exclusiveFrom": 0,
-                                "inclusiveTo": 25,
-                                "multiplier": 1
-                            },
-                            {
-                                "exclusiveFrom": 25,
-                                "inclusiveTo": 100,
-                                "multiplier": 0.5
-                            },
-                            {
-                                "exclusiveFrom": 100,
-                                "multiplier": 0.2
-                            }
-                        ]
-                    },
-                    {
-                        "id": "Gold",
-                        "ranges": [
-                            {
-                                "exclusiveFrom": 0,
-                                "multiplier": 0.1
-                            }
-                        ]
-                    }
-                ]
-            }
+          ]
         }
+      },
+      {
+        "id": "planoGlobal",
+        "currency": "USD",
+        "price": {
+          "metrics": [
+            {
+              "id": "Silver",
+              "ranges": [
+                {
+                  "exclusiveFrom": 0,
+                  "inclusiveTo": 25,
+                  "multiplier": 1
+                },
+                {
+                  "exclusiveFrom": 25,
+                  "inclusiveTo": 100,
+                  "multiplier": 0.5
+                },
+                {
+                  "exclusiveFrom": 100,
+                  "multiplier": 0.2
+                }
+              ]
+            },
+            {
+              "id": "Gold",
+              "ranges": [
+                {
+                  "exclusiveFrom": 0,
+                  "multiplier": 0.1
+                }
+              ]
+            }
+          ]
+        }
+      }
     ]
-},
+  },
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
   },
