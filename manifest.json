@@ -1,7 +1,7 @@
 {
   "vendor": "basedevmkp",
   "name": "facebook-pixel-teste",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "title": "Facebook Pixel",
   "description": "Integrate with Facebook advertising tools.",
   "defaultLocale": "pt-BR",
@@ -23,13 +23,16 @@
       "USA",
       "GBR"
     ],
-    "plans": [{
+    "plans": [
+      {
         "id": "pbr",
         "currency": "BRL",
         "price": {
-          "metrics": [{
+          "metrics": [
+            {
               "id": "mS",
-              "ranges": [{
+              "ranges": [
+                {
                   "exclusiveFrom": 0,
                   "inclusiveTo": 25,
                   "multiplier": 5
@@ -47,10 +50,12 @@
             },
             {
               "id": "mG",
-              "ranges": [{
-                "exclusiveFrom": 0,
-                "multiplier": 0.5
-              }]
+              "ranges": [
+                {
+                  "exclusiveFrom": 0,
+                  "multiplier": 0.5
+                }
+              ]
             }
           ]
         }
@@ -59,9 +64,11 @@
         "id": "pG",
         "currency": "USD",
         "price": {
-          "metrics": [{
+          "metrics": [
+            {
               "id": "mSus",
-              "ranges": [{
+              "ranges": [
+                {
                   "exclusiveFrom": 0,
                   "inclusiveTo": 25,
                   "multiplier": 1
@@ -79,10 +86,12 @@
             },
             {
               "id": "mGus",
-              "ranges": [{
-                "exclusiveFrom": 0,
-                "multiplier": 0.1
-              }]
+              "ranges": [
+                {
+                  "exclusiveFrom": 0,
+                  "multiplier": 0.1
+                }
+              ]
             }
           ]
         }
