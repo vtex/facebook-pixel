@@ -8,10 +8,10 @@
     "supportURL": "https://support.vtex.com/hc/requests",
     "privacyURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "metricDescription": {
-        "track": "metricDescription for the metricId=track",
-        "notify": "metricDescription for the metricId=notify",
-        "ustrack": "US metricDescription for the metricId=track",
-        "usnotify": "US metricDescription for the metricId=notify"
+        "SilverBR": "Prata",
+        "GoldBR": "Ouro",
+        "SilverUS": "Silver",
+        "GoldUS": "Gold"
     },
     "additionalInformation": "Additional information\nYou can also write new lines here\n\n\nIt should work just like overview"
 }
