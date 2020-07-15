@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
-  "name": "facebook-pixel",
-  "version": "2.1.4",
+  "name": "facebook-pixel-teste",
+  "version": "0.0.0",
   "title": "Facebook Pixel",
   "description": "Integrate with Facebook advertising tools.",
   "defaultLocale": "pt-BR",
