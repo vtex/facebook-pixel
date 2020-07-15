@@ -23,16 +23,13 @@
       "USA",
       "GBR"
     ],
-    "plans": [
-      {
-        "id": "planoBrasil",
+    "plans": [{
+        "id": "pbr",
         "currency": "BRL",
         "price": {
-          "metrics": [
-            {
-              "id": "SilverBR",
-              "ranges": [
-                {
+          "metrics": [{
+              "id": "mS",
+              "ranges": [{
                   "exclusiveFrom": 0,
                   "inclusiveTo": 25,
                   "multiplier": 5
@@ -49,26 +46,22 @@
               ]
             },
             {
-              "id": "GoldBR",
-              "ranges": [
-                {
-                  "exclusiveFrom": 0,
-                  "multiplier": 0.5
-                }
-              ]
+              "id": "mG",
+              "ranges": [{
+                "exclusiveFrom": 0,
+                "multiplier": 0.5
+              }]
             }
           ]
         }
       },
       {
-        "id": "planoGlobal",
+        "id": "pG",
         "currency": "USD",
         "price": {
-          "metrics": [
-            {
-              "id": "SilverUS",
-              "ranges": [
-                {
+          "metrics": [{
+              "id": "mSus",
+              "ranges": [{
                   "exclusiveFrom": 0,
                   "inclusiveTo": 25,
                   "multiplier": 1
@@ -85,13 +78,11 @@
               ]
             },
             {
-              "id": "GoldUS",
-              "ranges": [
-                {
-                  "exclusiveFrom": 0,
-                  "multiplier": 0.1
-                }
-              ]
+              "id": "mGus",
+              "ranges": [{
+                "exclusiveFrom": 0,
+                "multiplier": 0.1
+              }]
             }
           ]
         }
