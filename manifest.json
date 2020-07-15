@@ -13,14 +13,91 @@
   },
   "mustUpdateAt": "2019-10-01",
   "billingOptions": {
-    "type": "free",
+    "type": "billable",
     "support": {
-      "email": "manoel.gumes@vtex.com.br"
+        "email": "manoel.gumes@vtex.com.br"
     },
     "availableCountries": [
-      "BRA"
+        "BRA",
+        "ARG",
+        "USA",
+        "GBR"
+    ],
+    "plans": [
+        {
+            "id": "planoBrasil",
+            "currency": "BRL",
+            "price": {
+                "metrics": [
+                    {
+                        "id": "Silver",
+                        "ranges": [
+                            {
+                                "exclusiveFrom": 0,
+                                "inclusiveTo": 25,
+                                "multiplier": 5
+                            },
+                            {
+                                "exclusiveFrom": 25,
+                                "inclusiveTo": 100,
+                                "multiplier": 2.5
+                            },
+                            {
+                                "exclusiveFrom": 100,
+                                "multiplier": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Gold",
+                        "ranges": [
+                            {
+                                "exclusiveFrom": 0,
+                                "multiplier": 0.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "planoGlobal",
+            "currency": "USD",
+            "price": {
+                "metrics": [
+                    {
+                        "id": "Silver",
+                        "ranges": [
+                            {
+                                "exclusiveFrom": 0,
+                                "inclusiveTo": 25,
+                                "multiplier": 1
+                            },
+                            {
+                                "exclusiveFrom": 25,
+                                "inclusiveTo": 100,
+                                "multiplier": 0.5
+                            },
+                            {
+                                "exclusiveFrom": 100,
+                                "multiplier": 0.2
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Gold",
+                        "ranges": [
+                            {
+                                "exclusiveFrom": 0,
+                                "multiplier": 0.1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
     ]
-  },
+},
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
   },
