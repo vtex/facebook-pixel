@@ -1,0 +1,17 @@
+{
+    "name": "Facebook Pixel Test",
+    "overview": "This app allows easy integration with the services offered by Cookie Script.\n\nCookie Script helps you to comply GDPR and CCPA. Make your own cookie information popup, no programming skills required. You can even use it for free.",
+    "features": ["Cookie-Script automatically scans, categorizes and adds description to all cookies found on your website", "We scan your website and generate detailed report about all types of cookies used", "We record and store all visitor consents so you could download them as required by GDPR"],
+    "headline": "Headline Cookie Script",
+    "productDescription": "Make your website cookies comply with GDPR and CCPA.",
+    "websiteURL": "https://www.vtex.com/",
+    "supportURL": "https://support.vtex.com/hc/requests",
+    "privacyURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
+    "metricDescription": {
+        "track": "metricDescription for the metricId=track",
+        "notify": "metricDescription for the metricId=notify",
+        "ustrack": "US metricDescription for the metricId=track",
+        "usnotify": "US metricDescription for the metricId=notify"
+    },
+    "additionalInformation": "Additional information\nYou can also write new lines here\n\n\nIt should work just like overview"
+}

@@ -1,5 +1,5 @@
 {
-  "vendor": "vtex",
+  "vendor": "basedevmkp",
   "name": "facebook-pixel-teste",
   "version": "0.0.0",
   "title": "Facebook Pixel",
@@ -13,11 +13,97 @@
   },
   "mustUpdateAt": "2019-10-01",
   "billingOptions": {
-    "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
+    "type": "free",
     "support": {
-      "url": "https://support.vtex.com/hc/requests"
+      "email": "manoel.gumes@vtex.com.br"
     },
-    "free": true
+    "availableCountries": [
+      "*"
+    ],
+    "plans": [
+      {
+        "id": "planBRL",
+        "currency": "BRL",
+        "price": {
+          "subscription": 19.99,
+          "metrics": [
+            {
+              "id": "track",
+              "ranges": [
+                {
+                  "exclusiveFrom": 0,
+                  "multiplier": 10,
+                  "inclusiveTo": 100
+                },
+                {
+                  "exclusiveFrom": 100,
+                  "inclusiveTo": 103,
+                  "multiplier": 9
+                },
+                {
+                  "exclusiveFrom": 103,
+                  "inclusiveTo": 2000,
+                  "multiplier": 8.1
+                },
+                {
+                  "exclusiveFrom": 2000,
+                  "inclusiveTo": 2001,
+                  "multiplier": 7.77
+                },
+                {
+                  "exclusiveFrom": 2001,
+                  "multiplier": 6.66666666
+                }
+              ],
+              "customUrl": "https://my.com/_v/metric/billing/smssent"
+            },
+            {
+              "id": "notify",
+              "ranges": [
+                {
+                  "exclusiveFrom": 0,
+                  "multiplier": 0.5
+                }
+              ],
+              "customUrl": "https://my.com/_v/metric/billing/notify"
+            }
+          ]
+        }
+      },
+      {
+        "id": "planUSD",
+        "currency": "USD",
+        "price": {
+          "metrics": [
+            {
+              "id": "ustrack",
+              "ranges": [
+                {
+                  "exclusiveFrom": 0,
+                  "multiplier": 10,
+                  "inclusiveTo": 100
+                },
+                {
+                  "exclusiveFrom": 100,
+                  "multiplier": 9
+                }
+              ],
+              "customUrl": "https://my.com/_v/metric/billing/ussmssent"
+            },
+            {
+              "id": "usnotify",
+              "ranges": [
+                {
+                  "exclusiveFrom": 0,
+                  "multiplier": 0.5
+                }
+              ],
+              "customUrl": "https://my.com/_v/metric/billing/usnotify"
+            }
+          ]
+        }
+      }
+    ]
   },
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
