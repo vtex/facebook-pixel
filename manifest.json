@@ -1,7 +1,7 @@
 {
   "vendor": "basedevmkp",
   "name": "facebook-pixel-teste",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "title": "Facebook Pixel",
   "description": "Integrate with Facebook advertising tools.",
   "defaultLocale": "pt-BR",
@@ -15,13 +15,13 @@
   "billingOptions": {
     "type": "billable",
     "support": {
-        "email": "manoel.gumes@vtex.com.br"
+      "email": "manoel.gumes@vtex.com.br"
     },
     "availableCountries": [
-        "BRA",
-        "ARG",
-        "USA",
-        "GBR"
+      "BRA",
+      "ARG",
+      "USA",
+      "GBR"
     ],
     "plans": [
         {
@@ -95,9 +95,11 @@
                     }
                 ]
             }
+          
         }
+      
     ]
-},
+  },
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
   },
