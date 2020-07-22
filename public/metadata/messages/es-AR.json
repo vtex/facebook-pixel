@@ -4,9 +4,9 @@
     "features": ["Test 2", "Cookie-Script automatically scans, categorizes and adds description to all cookies found on your website", "We scan your website and generate detailed report about all types of cookies used", "We record and store all visitor consents so you could download them as required by GDPR"],
     "headline": "Test 2 Headline Cookie Script",
     "productDescription": "Test 2 Make your website cookies comply with GDPR and CCPA.",
-    "websiteURL": "teste 2 https://www.vtex.com/",
-    "supportURL": "teste 2 https://support.vtex.com/hc/requests",
-    "privacyURL": "teste 2 https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
+    "websiteURL": "https://www.vtex.com/",
+    "supportURL": "https://support.vtex.com/hc/requests",
+    "privacyURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "metricDescription": {
       "mS2": "Prata 2",
       "mG2": "Ouro 2"
