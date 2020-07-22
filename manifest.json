@@ -1,7 +1,7 @@
 {
   "vendor": "basedevmkp",
   "name": "facebook-pixel-test-2",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "title": "Facebook Pixel",
   "description": "Integrate with Facebook advertising tools.",
   "defaultLocale": "pt-BR",
@@ -21,12 +21,12 @@
       "BRA"
     ],
     "plans": [
-        {
-            "id": "pbrTeste2",
-            "currency": "BRL",
-            "price": {
-                "subscription": 66,  
-                "metrics": [
+      {
+        "id": "pbrTeste2",
+        "currency": "BRL",
+        "price": {
+          "subscription": 66,
+          "metrics": [
             {
               "id": "mS2",
               "ranges": [
