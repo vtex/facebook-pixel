@@ -1,6 +1,6 @@
 {
   "vendor": "basedevmkp",
-  "name": "facebook-pixel-teste",
+  "name": "facebook-pixel-test-2",
   "version": "6.0.0",
   "title": "Facebook Pixel",
   "description": "Integrate with Facebook advertising tools.",
@@ -18,78 +18,40 @@
       "email": "manoel.gumes@vtex.com.br"
     },
     "availableCountries": [
-      "BRA",
-      "ARG",
-      "USA",
-      "GBR"
+      "BRA"
     ],
     "plans": [
-      {
-        "id": "pbr",
-        "currency": "BRL",
-        "price": {
-          "metrics": [
+        {
+            "id": "pbrTeste2",
+            "currency": "BRL",
+            "price": {
+                "subscription": 66,  
+                "metrics": [
             {
-              "id": "mS",
+              "id": "mS2",
               "ranges": [
                 {
                   "exclusiveFrom": 0,
-                  "inclusiveTo": 25,
-                  "multiplier": 5
+                  "inclusiveTo": 60,
+                  "multiplier": 6
                 },
                 {
-                  "exclusiveFrom": 25,
-                  "inclusiveTo": 100,
-                  "multiplier": 2.5
+                  "exclusiveFrom": 60,
+                  "inclusiveTo": 600,
+                  "multiplier": 0.6
                 },
                 {
-                  "exclusiveFrom": 100,
-                  "multiplier": 1
+                  "exclusiveFrom": 600,
+                  "multiplier": 0.06
                 }
               ]
             },
             {
-              "id": "mG",
+              "id": "mG2",
               "ranges": [
                 {
                   "exclusiveFrom": 0,
-                  "multiplier": 0.5
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "pG",
-        "currency": "USD",
-        "price": {
-          "metrics": [
-            {
-              "id": "mSus",
-              "ranges": [
-                {
-                  "exclusiveFrom": 0,
-                  "inclusiveTo": 25,
-                  "multiplier": 1
-                },
-                {
-                  "exclusiveFrom": 25,
-                  "inclusiveTo": 100,
-                  "multiplier": 0.5
-                },
-                {
-                  "exclusiveFrom": 100,
-                  "multiplier": 0.2
-                }
-              ]
-            },
-            {
-              "id": "mGus",
-              "ranges": [
-                {
-                  "exclusiveFrom": 0,
-                  "multiplier": 0.1
+                  "multiplier": 0.6
                 }
               ]
             }
