@@ -1,7 +1,7 @@
 {
   "vendor": "basedevmkp",
   "name": "facebook-pixel-test-3",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "title": "Facebook Pixel",
   "description": "Integrate with Facebook advertising tools.",
   "defaultLocale": "pt-BR",
