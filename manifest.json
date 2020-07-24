@@ -1,6 +1,6 @@
 {
   "vendor": "basedevmkp",
-  "name": "facebook-pixel-test-2",
+  "name": "facebook-pixel-test-3",
   "version": "7.0.0",
   "title": "Facebook Pixel",
   "description": "Integrate with Facebook advertising tools.",
@@ -22,36 +22,36 @@
     ],
     "plans": [
       {
-        "id": "pbrTeste2",
+        "id": "pbrTeste3",
         "currency": "BRL",
         "price": {
           "subscription": 66,
           "metrics": [
             {
-              "id": "mS2",
+              "id": "mS3",
               "ranges": [
                 {
                   "exclusiveFrom": 0,
-                  "inclusiveTo": 60,
-                  "multiplier": 6
+                  "inclusiveTo": 30,
+                  "multiplier": 3
                 },
                 {
-                  "exclusiveFrom": 60,
-                  "inclusiveTo": 600,
-                  "multiplier": 0.6
+                  "exclusiveFrom": 30,
+                  "inclusiveTo": 40,
+                  "multiplier": 0.4
                 },
                 {
-                  "exclusiveFrom": 600,
-                  "multiplier": 0.06
+                  "exclusiveFrom": 47,
+                  "multiplier": 0.7
                 }
               ]
             },
             {
-              "id": "mG2",
+              "id": "mG3",
               "ranges": [
                 {
                   "exclusiveFrom": 0,
-                  "multiplier": 0.6
+                  "multiplier": 0.3
                 }
               ]
             }
